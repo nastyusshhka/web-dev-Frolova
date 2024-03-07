@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PW1.html</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #D1B4F7; 
+  padding: 2px;
+  text-align: center;
+  font-size: 70px; 
+  font-size:xx-large;
+  color: white;
+  font-weight: bold;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 11%;
+  height: 2650px; /* only for demonstration, should be removed */
+  background: #f5eeff;
+  text-align: center;
+  padding: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000000;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  float: left;
+  padding: 20px;
+  width: 89%;
+  background-color: rgb(255, 255, 255);
+  height: 2650px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #D1B4F7;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<header>
+  <h2>⋆✧₊PW1.html₊✧⋆</h2>
+  <p>Student: Frolova Anastasiya, 353</p>
+</header>
+
+  <section>
+    <nav>
+      <ul>
+        <h1>Task 1</h1>
+        <li><a href="#q1.1">Question 1</a></li>
+        <li><a href="#q1.2">Question 2</a></li>
+        <li><a href="#q1.3">Question 3</a></li>
+        <li><a href="#q1.4">Question 4</a></li>
+        <li><a href="#q1.5">Question 5</a></li>
+        <li><a href="#q1.6">Question 6</a></li>
+      </ul>
+    </nav>
+
+
+  <main>
+      <h2 style="color: #7c45c5;">Question 1</h2>
+      <dl>
+        <b><dt id="q1.1">When HTML5 has become a standard? What were the main reasons for developing new standard?</dt></b>
+        <dd><i><b><p>Answer: </p></b></i></dd> <dd>On 1 November 2016, HTML 5.1 was released as a W3C Recommendation. On 14 December 2017, HTML 5.2 was released as a W3C Recommendation. </dd>
+      </dl> 
+
+      <h2 style="color: #7c45c5;">Question 2</h2>
+      <dl>
+        <b><dt id="q1.2">What is a difference between W3C HTML5 and WHATWG HTML Living Standard?</dt></b>
+        <dd><i><b><p>Answer: </p></b></i></dd> <dd>The W3C "HTML5" standard was snapshot-based (HTML5, HTML 5.1, etc.) and static, while the WHATWG "HTML living standard" is continually updated. The relationship had been described as "fragile", even a "rift", and characterized by "squabbling".</dd>
+      </dl>
+    
+      <h2 style="color: #7c45c5;">Question 3</h2>
+      <d1>
+        <b><dt id= "q1.3">What is the minimal HTML page code?</dt></b>
+        <dd><i><b><p>Answer: </p></b></i></dd> <dd> In order to remain valid, an HTML document must contain a certain set of elements. 
+          These elements are called the minimal HTML. All documents must contain the minimal HTML or they are not valid, well-formed documents (more on what valid/well-formed means later).
+          <p><img src="6.png" style="padding:0 20px; width:380px; height: 340px"></p> </dd>
+      </dl>
+
+      <h2 style="color: #7c45c5;">Question 4</h2>
+      <dl>
+        <b><dt id= "q1.4">Comment on semantic and presentational markup. Why presentational markup is considered deprecated now?</dt></b>
+        <dd><i><b><p>Answer: </p></b></i></dd> <dd>Semantic HTML is a way of writing HTML that emphasizes the meaning of the encoded information over its presentation (look). HTML has included semantic markup from its inception, but has also included presentational markup, such as font, i and center tags. There are also the semantically neutral div and span tags. 
+          <p> Semantic markup focuses on the meaning and structure of content, making it easier for search engines and assistive technologies to understand. Presentational markup, on the other hand, focuses on how content should be displayed, which is considered deprecated because it mixes content with styling and makes it harder to maintain and adapt to different devices.</p>
+          </dd>
+      </dl>
+
+      <h2 style="color: #7c45c5;">Question 5</h2>
+      <dl>
+        <b><dt id= "q1.5">How you can check browser support for particular tag or attribute?</dt></b>
+        <dd><i><b><p>Answer: </p></b></i></dd> <dd><p>You can check browser support for a particular tag or attribute by using websites like caniuse.com or MDN Web Docs. These resources provide information on browser compatibility for various HTML features.</p></dd>
+      </dl>
+
+      <h2 style="color: #7c45c5;">Question 6</h2>
+      <d1>
+        <b><dt id= "q1.6" >What are the audio and video formats, officially supported by HTML standard? What happens if you use other format?</dt></b>
+        <dd><i><b><p>Answer: </p></b></i></dd> <dd><p>HTML supports various media types and formats for embedding different types of media content within web pages. Here are some of the commonly supported media types and formats in HTML:</p>
+          <p> 1.	Images:JPEG (Joint Photographic Experts Group), PNG (Portable Network Graphics), GIF (Graphics Interchange Format), SVG (Scalable Vector Graphics), WebP (Web Picture Format), BMP (Bitmap Image)</p>
+          <p> 2.	Video:MP4 (MPEG-4 Part 14), WebM (WebM Project), Ogg (Ogg container format)</p>
+          <p> 3.	Audio:MP3 (MPEG Audio Layer III), WAV (Waveform Audio File Format), Ogg (Ogg container format)</p>
+          <p> 4.	Documents:PDF (Portable Document Format), DOCX (Microsoft Word Open XML Document), PPTX (Microsoft PowerPoint Open XML Presentation), XLSX (Microsoft Excel Open XML Spreadsheet), TXT (Plain Text), HTML (Hypertext Markup Language), XML (eXtensible Markup Language)</p>
+          <p> 5.	Other media types:CSS (Cascading Style Sheets), JavaScript (Text-based scripting language), Fonts (e.g., TrueType, OpenType, WOFF).</p>
+          If you use other formats that are not officially supported, the browser may not be able to play the audio or video content correctly, leading to compatibility issues for users.
+        </dd>
+      </d1>
+
+        <h2 style="color: #7c45c5;">My resources for recent tasks</h2>
+        <dl><dd>
+          <p><li>1.	https://www.oyova.com/blog/html5-and-your-content-what-to-do/#:~:text=HTML5%20was%20developed%20to%20address,party%20plugins%20like%20Adobe%20Flash</li></p>
+          <p> <li>2.	https://terminallearning.com/devHtml/htmlMinimal.html </li></p>
+          <p> <li>3. https://www.quora.com/What-are-the-media-types-and-formats-supported-by-HTML#:~:text=Video%3AMP4%20(MPEG%2D4,)Ogg%20(Ogg%20container%20format)</li></p></dd>
+          
+          </dl>
+
+        <h2 style="color: #7c45c5;">Video</h2>
+        <dd><p> <iframe width="560" height="315" src="https://www.youtube.com/embed/1goAp0XmhZQ?si=P8bdT4RjdeuOVfzJ&amp;autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" allowfullscreen></iframe></p>
+          Video courtesy of 
+          <a href="https://youtu.be/1goAp0XmhZQ?si=8yCBmHOOAWCfQu9-">Kenji's Weird Stories</a>. </dd>
+        <h2 style="color: #7c45c5;">Audio</h2> 
+          <dl>
+            <b><dt>Amazing songs (sometimes) </dt></b>
+            <dd>
+              <figure>
+                <figcaption><i>1. Twenty One Pilots - Tradpoor</i></figcaption> 
+                <audio controls><source src="Twenty One Pilots - Trapdoor.mp3" type="audio/ogg"> </audio></figure>
+                <figure>
+                  <figcaption><i>1. Twenty One Pilots - Heavydirtysoul</i></figcaption> 
+                  <audio controls><source src="Twenty one pilots - Heavy Dirty Soul.mp3" type="audio/ogg"> </audio></figure>
+                  <figure>
+                    <figcaption><i>1. Twenty One Pilots - The Pantaloon</i></figcaption> 
+                    <audio controls><source src="Twenty one pilots - The Pantaloon.mp3" type="audio/ogg"> </audio></figure>
+            </dd>
+        </dd>
+          
+      </dl>
+  </main>
+</section>
+<footer>
+  <p><img src="sbbsu.png" alt="sbbsu" style="padding:0 
+  20px; width:100px; height: 40px; float: left; box-sizing: content-box;"></p>   <p>I enjoyed doing this lab work. However, there were difficulties with the footer and I did not immediately understand what to do in principle. But then they helped me, explained what to do and everything became clear.</p>
+</footer>
+
+</body>
+</html>
+
