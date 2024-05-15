@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Link Styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+/* Navigation Styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* Main Content Styles */
+.main-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+  color: #007bff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #007bff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #0056b3;
+}
+
+.news-section {
+    margin: 20px;
+    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news-preview {
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px #0056b3;
+  border-radius: 5px;
+}
+
+.news-preview img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.news-preview .content {
+  padding: 15px;
+}
+
+.news-preview h3 {
+  margin-top: 0;
+}
+
+.news-preview p {
+  margin-bottom: 10px;
+}
+
+.news-preview button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #007bff;
+}
+
+</style>
+<body>
+    <aside>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Sports</a></li>
+          </ul>
+        </nav>
+      </aside>
+<header>
+  <h1>Top News</h1>
+  <div class="top-news">
+    <img src="l1.jpg" alt="Top News Image" width="auto">
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button>Read More</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="news-section">
+    <div class="news-preview">
+      <img src="l.jpg" alt="News Image 1">
+      <div class="content">
+        <h3>News Headline 1</h3>
+        <p>Category | Date</p>
+        <p>Excerpt text here...</p>
+        <button>Read More</button>
+      </div>
+    </div>
+
+    <div class="news-preview">
+        <img src="l2.jpg" alt="News Image 2">
+        <div class="content">
+          <h3>News Headline 2</h3>
+          <p>Category | Date</p>
+          <p>Excerpt text here...</p>
+          <button>Read More</button>
+        </div>
+      </div>
+
+<div class="news-preview">
+      <img src="l3.jpg" alt="News Image 3">
+      <div class="content">
+        <h3>News Headline 3</h3>
+        <p>Category | Date</p>
+        <p>Excerpt text here...</p>
+        <button>Read More</button>
+      </div>
+</div>
+  </section>
+  
+
+ 
+</main>
+<footer>
+    <p>&copy; 2023 News Website</p>
+  </footer>
+
+</body>
+</html>
